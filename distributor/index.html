@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<head>
+  <title>Data Distributor</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="./../css/style.css" />
+  <style>
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    td,
+    th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="topbar"></nav>
+  <nav class="sidebar bg-white">
+    <div class="sidenav-header bg-primary">Dinus POS</div>
+    <ul>
+      <li class="mt-10"><a href="../barang/index.html">Data Barang</a></li>
+      <li class="active">
+        <a class="active" href="#"
+          ><i class="Distributor"></i>Distributor</a
+        >
+      </li>
+      <li>
+        <a href="../pembelian/index.html"><i class="Pembelian"></i>Pembelian</a>
+      </li>
+      <li>
+        <a href="../pos/index.html"><i class="POS"></i>Point Of Sales</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="container">
+    <header style="padding: 30px 20px 60px 20px" class="bg-primary">
+      <h1>Data Distributor</h1>
+    </header>
+    <div class="card" style="margin-top: -25px; z-index: 99">
+      <a href="add.html" class="button bg-primary mb-3">Tambah Data Distributor</a>
+      <table>
+         <tr>
+          <th>Nama Distributor</th>
+          <th>Alamat</th>
+          <th>No Hp</th>
+        </tr>
+        <tr>
+          <td>Dhevan</td>
+          <td>UDINUS GEDUNG E</td>
+          <td>081226292132</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</body>

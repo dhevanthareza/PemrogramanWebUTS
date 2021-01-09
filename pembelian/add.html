@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <title>Tambah Data Barang</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./../css/style.css">
+</head>
+
+<body>
+    <nav class="topbar"></nav>
+    <nav class="sidebar bg-white">
+      <div class="sidenav-header bg-primary">Dinus POS</div>
+      <ul>
+        <li class="mt-10"><a href="../barang/index.html">Data Barang</a></li>
+        <li>
+          <a href="../distributor/index.html"><i class="Distributor"></i>Distributor</a>
+        </li>
+        <li class="active">
+          <a class="active" href="../pembelian/index.html"><i class="Pembelian"></i>Pembelian</a>
+        </li>
+        <li>
+          <a href="../pos/index.html"><i class="POS"></i>Point Of Sales</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="container">
+        <header style="padding: 30px 20px 60px 20px;" class="bg-primary">
+            <h1> Tambah Data Barang</h1>
+        </header>
+        <div class="card" style="margin-top: -25px;z-index: 99;">
+            <form>
+                <select name="pilihbarang" class="input-box">
+                    <option value="none">Pilih Barang</option>
+                    <option value="barang1">Barang 1</option>
+                    <option value="barang2">Barang 2</option>
+                </select>
+                <input type="qty" class="input-box" placeholder="QTY">
+                <input type="hpp" class="input-box" placeholder="HPP">
+                <br>
+                <button type="button" class="simpN bg-primary">Simpan</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
